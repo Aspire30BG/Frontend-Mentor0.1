@@ -8,9 +8,6 @@ body {
 .page {
  display: flex;
  flex-direction : row;
- gap: -20%;
- height: auto;
- width: auto;
  padding: 50px;
  background-color: #efefef;
  align-items: center;
