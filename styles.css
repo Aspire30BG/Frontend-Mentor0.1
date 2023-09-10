@@ -1,18 +1,24 @@
+@media (min-width: 550px) {
 * {
   box-sizing: border-box;
   }
 body {
   background-color: lavender;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: auto;
+  align-items: center;
+ justify-content: center;
+
 }
 .page {
  display: flex;
  flex-direction : row;
  gap: -20%;
- height: auto;
- width: auto;
+ height: 1000px;
+ width: 100%;
  padding: 50px;
- background-color: #efefef;
+ background-color: white;
  align-items: center;
  justify-content: center;
  color: white;
@@ -23,6 +29,9 @@ body {
   width: 250px;
   border-radius: 20px;
   text-align: center;
+  box-shadow: 0 0 40px 0 rgba(211, 209, 209, 0.8);
+  position: relative;
+  right: -10px;
 }
 .circle {
   width: 130px;
@@ -66,11 +75,12 @@ body {
   background-color: white;
   color: black;
   height: 350px;
-  width: 250px;
-  border-radius: 20px;
+  width: 270px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   border-width: 2px 2px 0px 0px;
-  border-color: #efefef;
   padding: 20px;
+  box-shadow: 0 0 40px 0 rgba(211, 209, 209, 0.8);
 }
 .summary {
   color:  rgb(37, 37, 70);
@@ -175,4 +185,5 @@ button{
 }
 .fa-solid {
   margin-left: 10px;
+}
 }
