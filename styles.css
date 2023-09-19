@@ -183,6 +183,7 @@ button{
   display: flex;
   flex-direction: column;
   background-color: black;
+  width: 100vw;
    }
    .box-1 {
     width: 70vw;
@@ -209,3 +210,6 @@ button{
      padding-bottom: 10px;
    }
    }
+   How was your day sir?
+   The updated work is on the link below
+   https://aspire30bg.github.io/Frontend-Mentor0.1/
