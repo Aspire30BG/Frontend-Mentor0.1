@@ -196,18 +196,21 @@ button{
    }
    .box-1 {
     width: 70vw;
-    height: 107vh;
+    height: 48vh;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     position: relative;
     bottom: -35px;
+    left: 0px;
+    box-shadow: none;
  }
    .box-2 {
      width: 70vw;
-     height: 130vh;
+     height: 60vh;
      border-radius: 0;
+     box-shadow: none;
    }
    .summary {
    margin-top: 38px;
